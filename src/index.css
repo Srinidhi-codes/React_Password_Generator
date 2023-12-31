@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  background-color: black;
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  min-height: 100vh;
+  background: url("https://cdn.pixabay.com/photo/2018/03/02/21/11/cyber-security-3194286_1280.jpg");
+}
+
+label{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
